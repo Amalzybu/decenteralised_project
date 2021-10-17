@@ -2,11 +2,14 @@
   "name": "decenteralised",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --config vite.config.js",
     "build": "vite build",
     "serve": "vite preview"
   },
   "devDependencies": {
     "vite": "^2.6.4"
+  },
+  "dependencies": {
+    "gun": "^0.2020.1235"
   }
 }
